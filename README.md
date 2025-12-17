@@ -1,4 +1,4 @@
-# 2025-JSAC-RadiationPatternReconfigurableAntenna
+# 2026-IEEE-TWC-ChirpDelayDopplerModulationISAC
 
 Simulation codes for our paper, titled *Chirp Delay-Doppler Domain Modulation Based Joint Communication and Radar for Autonomous Vehicles*, which has been accepted by **IEEE TWC** and is available on [arXiv](https://arxiv.org/abs/2512.14432).
 
@@ -66,6 +66,7 @@ Building upon this modulation scheme, we derive its achievable rate to quantify 
 We then introduce an extended Kalman filter-based scheme for four-dimensional (4D) parameter estimation in dynamic environments, enabling the active vehicles to accurately estimate orientation and tangential-velocity beyond traditional 4D radar systems.
 Furthermore, in terms of communication, we propose a dual-compensation-based demodulation and tracking scheme that allows the passive vehicles to effectively demodulate data without compromising their sensing functions.
 Simulation results underscore the feasibility and superior performance of our proposed methods, marking a significant advancement in the field of autonomous vehicles.
+
 
 
 
