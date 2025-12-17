@@ -49,6 +49,14 @@ The code in this repository was developed and tested with:
 - **GPU acceleration**:  
   - Some parts of the code are implemented with **GPU acceleration** enabled.
 
+### Python Dependencies
+To install the required Python libraries, please navigate to the root directory of this repository and run:
+
+```bash
+pip install -r requirements.txt
+```
+
+**Note:** This project relies on **PyTorch**. If you wish to enable **GPU acceleration** (CUDA), please ensure you install the compatible version of PyTorch for your specific CUDA driver. You may need to install it manually following instructions at [pytorch.org](https://pytorch.org/) (e.g., `pip3 install torch --index-url https://download.pytorch.org/whl/cu118`) rather than relying solely on the default `requirements.txt` installation.
 
 
 # Abstract
@@ -58,6 +66,7 @@ Building upon this modulation scheme, we derive its achievable rate to quantify 
 We then introduce an extended Kalman filter-based scheme for four-dimensional (4D) parameter estimation in dynamic environments, enabling the active vehicles to accurately estimate orientation and tangential-velocity beyond traditional 4D radar systems.
 Furthermore, in terms of communication, we propose a dual-compensation-based demodulation and tracking scheme that allows the passive vehicles to effectively demodulate data without compromising their sensing functions.
 Simulation results underscore the feasibility and superior performance of our proposed methods, marking a significant advancement in the field of autonomous vehicles.
+
 
 
 
